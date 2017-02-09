@@ -1,4 +1,4 @@
-package com.xrip;
+package com.xrip.can;
 
 import android.app.AlertDialog;
 import android.content.Context;
@@ -6,6 +6,8 @@ import android.util.Log;
 import android.view.WindowManager;
 import android.widget.Toast;
 
+
+import com.xrip.can.Packet;
 
 import java.util.HashMap;
 import java.util.Map;

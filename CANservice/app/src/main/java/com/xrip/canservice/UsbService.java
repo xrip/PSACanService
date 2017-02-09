@@ -23,8 +23,8 @@ import java.nio.charset.StandardCharsets;
 import java.util.HashMap;
 import java.util.Map;
 
-import com.xrip.Packet;
-import com.xrip.PacketsHandler;
+import com.xrip.can.Packet;
+import com.xrip.can.PacketsHandler;
 
 public class UsbService extends Service {
 

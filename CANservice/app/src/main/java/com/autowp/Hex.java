@@ -1,4 +1,4 @@
-package com;
+package com.autowp;
 
 import java.util.Arrays;
 

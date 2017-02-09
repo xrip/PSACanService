@@ -1,6 +1,6 @@
-package com.xrip;
+package com.xrip.can;
 
-import com.Hex;
+import com.autowp.Hex;
 
 import java.util.regex.Matcher;
 import java.util.regex.Pattern;
@@ -18,7 +18,7 @@ public class Packet {
     private byte[] dataBytes;
 
     public Packet(String packet) throws Exception {
-        final Pattern pattern = Pattern.compile("/(.)([0-9A-F]{3})(\\d)([0-9A-F]+)$/");
+        final Pattern pattern = Pattern.compile("/(.)([0-9A-F]{3})(\\d)([0-9A-F]+)/");
         final Matcher matcher = pattern.matcher(packet);
 
         if (matcher.find()) {
